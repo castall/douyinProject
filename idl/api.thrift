@@ -109,7 +109,6 @@ struct PublishListResp {
 # 视频流服务
 service FeedService {
     FeedResp FeedMethod(1: FeedReq request) (api.get="/douyin/feed/");
-
 }
 # publish服务
 service PublishService{
